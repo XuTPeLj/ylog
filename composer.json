@@ -1,0 +1,23 @@
+{
+  "name": "yuri/ylog",
+  "description": "Advanced PHP logger & profiler",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Ylog\\": "src/Ylog/"
+    },
+    "files": [
+      "src/Ylog/functions.php"
+    ]
+  },
+  "require": {
+    "php": "^8.1",
+    "ext-mbstring": "*",
+    "psr/log": "^3.0"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.10",
+    "friendsofphp/php-cs-fixer": "^3.16"
+  }
+}
